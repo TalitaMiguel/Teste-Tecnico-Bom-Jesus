@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'DejaVuSans';
+  src: url('../fonts/dejavu-sans/ttf/DejaVuSans.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DejaVuSansBold';
+  src: url('../fonts/dejavu-sans/ttf/DejaVuSansCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'DejaVuSansCondensedBold';
+  src: url('../fonts/dejavu-sans/ttf/DejaVuSansCondensed-BoldOblique.ttf') format('truetype');
+  font-weight: BoldOblique;
+}
+
+:root {
+  --white: #FFF;
+  --black: #000;
+  --yellow-400: #FED900;
+  --gray-200: #8E8C84;
+  --gray-500: #3F3E36;
+  --gray-600: #424032;
+  --gray-800: #27261D;
+
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'DejaVuSans', sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.color-gray-200 {
+  color: var(--gray-200);
+}
+
+.color-gray-500 {
+  color: var(--gray-500);
+}
+
+.color-gray-600 {
+  color: var(--gray-600);
+}
+
+.color-yellow-400 {
+  color: var(--yellow-400);
+}
+
+.background-gray-500 {
+  background: var(--gray-500);
+}
+
+.background-gray-800 {
+  background: var(--gray-800);
+}
+
+.diagonal-bg {
+  width: 100%;
+  background: linear-gradient(73deg, var(--gray-600) 50%, var(--yellow-400) 50%);
+  position: relative;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1240px;
+  padding: 1rem 6rem 0;
+}
+
+.title-excellence {
+  padding-left: 5px;
+  font-size: 1.2rem;
+}
+
+.container-fae {
+  width: 64%;
+  justify-content: center;
+}
+
+.text-fae {
+  color: var(--yellow-400);
+  font-family: 'DejaVuSansBold', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+
+}
+
+.custom-hr {
+  border-top: 2px solid;
+}
+
+.custom-h4 {
+  color: var(--yellow-400);
+  font-family: 'DejaVuSans', sans-serif;
+  font-weight: normal;
+}
+
+.custom-paragraph {
+  font-size: 0.875rem;
+}
+
+.custom-height {
+  height: 50px;
+}
+
+.custom-chevron {
+  font-size: 1.5rem;
+  padding-left: 12px;
+}
+
+.text-courses {
+  color: var(--white);
+  font-family: 'DejaVuSansBold', sans-serif;
+  font-weight: bold;
+}
+
+.arrow-container {
+  text-decoration: none;
+}
+
+.arrow-container:hover .fa-arrow-right {
+  transform: translateX(5px);
+}
+
+.view-courses {
+  text-align: center;
+}
+
+.view-courses-button {
+  border-left: 2px solid var(--gray-200);
+  border-right: 2px solid var(--gray-200);
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  color: var(--gray-200);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0 0.5rem;
+}
+
+.view-courses-button:hover {
+  opacity: 0.7;
+}
+
+#logo-fae h4 {
+  color: var(--black);
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3.5rem;
+
+  border-bottom: 1px solid white;
+}
+
+#logo-fae span {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#logo-fae h5 {
+  font-weight: normal;
+  text-align: justify;
+  font-family: 'DejaVuSans', sans-serif;
+
+  color: var(--gray-600);
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+#logo-fae h5 strong{
+  font-size: 1.8rem;
+  color: var(--gray-500)
+}
+
+#logo-fae p{
+  font-size: 1rem;
+  text-align: left;
+  color: var(--gray-600);
+}
+
+#logo-fae .sign-up {
+  max-width: 11.25rem;
+  margin: 2rem 0;
+
+  color: var(--white); 
+  border: 2px solid transparent;
+  border-color: var(--gray-600);
+  background-color: var(--gray-600);
+}
+
+#logo-fae .sign-up:hover {
+  opacity: 0.9;
+  border: 2px solid var(--gray-800);
+}
+
+#logo-fae a {
+  color: var(--gray-600); 
+  font-weight: bold;
+}
+
+.address-more-information {
+  color: var(--white);
+  background-color: var(--gray-800);
+}
+
+.address-more-information  h4 {
+  font-weight: normal;
+  font-family: 'DejaVuSans', sans-serif;
+  color: var(--yellow-400);
+}
+
+.address-more-information  h4 strong {
+  color: var(--white);
+  padding-left: 8px;
+}
+
+.address-more-information a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+footer h4 {
+  color: var(--white);
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+.show-hide-mobile {
+  display: none;
+}
+
+.show-hide-desktop {
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 381px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .banner img {
+    width: 18rem;
+
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .show-hide-mobile {
+    display: inherit;
+  }
+
+  .show-hide-desktop {
+    display: none;
+  }
+
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .diagonal-bg {
+    background: linear-gradient(190deg, var(--gray-600) 60%, var(--yellow-400) 50%);
+  }
+
+  .banner {
+    width: 100%;
+    padding: 2rem 2rem 0;
+
+  }
+
+  .custom-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-banner .title-excellence {
+    padding-left: 0;
+    font-size: 2rem;
+  }
+
+  .custom-banner .container-fae {
+    justify-content: center;
+  }
+
+  .custom-banner .container-fae  h3 {
+    font-size: 5rem;
+  }
+
+  .custom-banner .container-fae  span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .custom-paragraph {
+    font-weight: bold;
+  }
+
+  .courses-button {
+    display: inline-flex;
+    color: var(--white);
+  }
+
+  .courses-button a {
+    color: var(--white);
+  }
+
+  .view-courses {
+    text-align: end;
+  }
+
+  #logo-fae p {
+    width: 12rem;
+  }
+
+  /* .address-more-information {
+    background: linear-gradient(-3deg, var(--gray-600) 95%, var(--yellow-400) 58%);
+  } */
+
+  .address-more-information .container aside {
+    padding: 2rem 3rem 1rem!important;
+  }
+
+  #logo-fae .sign-up {
+    margin: 1rem 0;
+  }
+
+  .box-more-information {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-mobile h4 {
+    border-bottom: 2px solid var(--white);
+    width: 90px;
+    margin: 0 auto;
+  }
+
+  .footer-mobile span {
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 3px;
+  }
+
+}
+
