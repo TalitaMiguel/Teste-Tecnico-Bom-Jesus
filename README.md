@@ -21,7 +21,7 @@
 
 
 <h2 id="surge"> 🔗Link Surge </h2>  
-http://bomjesus.surge.sh
+https://bom-jesus.surge.sh
 
 
 <h2 id="recursos"> 💻Recursos Necessários </h2>
