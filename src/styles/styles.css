@@ -274,13 +274,18 @@ footer h4 {
     display: none;
   }
 
-  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  .container, 
+  .container-fluid, 
+  .container-lg, 
+  .container-md, 
+  .container-sm, 
+  .container-xl, 
+  .container-xxl {
     padding: 0 !important;
     width: 100%;
   }
 
   .diagonal-bg {
-    /* background: linear-gradient(190deg, var(--gray-600) 60%, var(--yellow-400) 50%); */
     background: var(--gray-600);
   }
 
