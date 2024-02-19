@@ -280,7 +280,8 @@ footer h4 {
   }
 
   .diagonal-bg {
-    background: linear-gradient(190deg, var(--gray-600) 60%, var(--yellow-400) 50%);
+    /* background: linear-gradient(190deg, var(--gray-600) 60%, var(--yellow-400) 50%); */
+    background: var(--gray-600);
   }
 
   .banner {
@@ -292,8 +293,6 @@ footer h4 {
   .custom-banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .custom-banner .title-excellence {
@@ -302,7 +301,7 @@ footer h4 {
   }
 
   .custom-banner .container-fae {
-    justify-content: center;
+    margin-left: 1.4rem;
   }
 
   .custom-banner .container-fae  h3 {
@@ -331,16 +330,69 @@ footer h4 {
     text-align: end;
   }
 
-  #logo-fae p {
-    width: 12rem;
+  .diagonal-bg-mobile {
+    background: var(--yellow-400);
+    clip-path: polygon(0% 0%, 100% 17%, 100% 93%, 0% 100%);
+
+    height: 600px;
+    margin-top: -110px;
+    padding-top: 6rem;
   }
 
-  /* .address-more-information {
-    background: linear-gradient(-3deg, var(--gray-600) 95%, var(--yellow-400) 58%);
-  } */
+  .diagonal-bg-mobile h5 {
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'DejaVuSans', sans-serif;
+  
+    color: var(--gray-600);
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .diagonal-bg-mobile h5 strong{
+    font-size: 1.8rem;
+    color: var(--gray-500)
+  }
+
+  .diagonal-bg-mobile p {
+    width: 15rem;
+    font-size: 1rem;
+    text-align: left;
+    color: var(--gray-600);
+    padding-left: 1rem;
+  }
+
+  .diagonal-bg-mobile a {
+    color: var(--gray-600); 
+    font-weight: bold;
+  }
+
+  .diagonal-bg-mobile .sign-up {
+    max-width: 11.25rem;
+    margin: 1rem;
+  
+    color: var(--white); 
+    border: 2px solid transparent;
+    border-color: var(--gray-600);
+    background-color: var(--gray-600);
+  }
+  
+  .diagonal-bg-mobile .sign-up:hover {
+    opacity: 0.9;
+    border: 2px solid var(--gray-800);
+  }
+
+  .address-more-information {
+    margin-top: -115px;
+    clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%);
+  }
 
   .address-more-information .container aside {
     padding: 2rem 3rem 1rem!important;
+  }
+
+  .address-more-information .box-info {
+    margin-top: 30px;
   }
 
   #logo-fae .sign-up {
